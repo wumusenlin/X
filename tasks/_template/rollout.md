@@ -1,18 +1,17 @@
-# Rollout
+# 发布
 
-## Release Order
+## 发布顺序
 
-1. Backend
-2. Web
-3. Mobile
+1. 后端
+2. Web 端
+3. 移动端
 
-## Compatibility
+## 兼容性
 
 - 
 
-## Verification Results
+## 验证结果
 
-- Backend:
-- Web:
-- Mobile:
-
+- 后端：
+- Web 端：
+- 移动端：

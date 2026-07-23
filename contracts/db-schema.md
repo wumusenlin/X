@@ -1,12 +1,11 @@
-# Database Schema Notes
+# 数据库结构说明
 
-Record shared database design here before implementing backend migrations.
+在实现后端迁移之前，先在这里记录共享数据库设计。
 
-For each feature, include:
+每个功能应包含：
 
-- Tables or collections.
-- Fields and types.
-- Indexes.
-- Constraints.
-- Migration and rollback notes.
-
+- 表或集合。
+- 字段和类型。
+- 索引。
+- 约束。
+- 迁移和回滚说明。

@@ -1,8 +1,8 @@
-# Projects
+# 项目
 
-Place independent business project repositories here.
+在这里放置独立业务项目仓库。
 
-Expected layout:
+预期目录结构：
 
 ```txt
 projects/
@@ -11,4 +11,4 @@ projects/
   nky/
 ```
 
-Each child project should keep its own `.git` directory.
+每个子项目都应保留自己的 `.git` 目录。

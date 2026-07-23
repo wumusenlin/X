@@ -1,17 +1,16 @@
-# Mobile Plan
+# 移动端方案
 
-## Data
+## 数据
 
-- Query:
-- Mutation:
+- 查询：
+- 变更：
 
-## UI
+## 界面
 
-- Screens:
-- States:
-- Platform differences:
+- 页面：
+- 状态：
+- 平台差异：
 
-## Verification
+## 验证
 
-- Tests:
-
+- 测试：

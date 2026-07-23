@@ -1,18 +1,17 @@
-# Backend Plan
+# 后端方案
 
-## Storage
+## 存储
 
-- Tables or collections:
-- Migration:
+- 表或集合：
+- 迁移：
 
-## Interfaces
+## 接口
 
-- Endpoints:
-- Request:
-- Response:
-- Errors:
+- 端点：
+- 请求：
+- 响应：
+- 错误：
 
-## Verification
+## 验证
 
-- Tests:
-
+- 测试：

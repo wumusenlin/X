@@ -1,14 +1,13 @@
-# Domain Model
+# 领域模型
 
-## Terms
+## 术语
 
-- Term:
+- 术语：
 
-## Entities
+## 实体
 
-- Entity:
+- 实体：
 
-## States
+## 状态
 
-- State:
-
+- 状态：

@@ -1,8 +1,7 @@
-# Docs
+# 文档
 
-Shared documentation for this workspace.
+本工作区的共享文档。
 
-- `product/`: product-level notes.
-- `architecture/`: architecture rules and cross-project conventions.
-- `decisions/`: architecture decision records.
-
+- `product/`：产品层面的说明。
+- `architecture/`：架构规则和跨项目约定。
+- `decisions/`：架构决策记录。

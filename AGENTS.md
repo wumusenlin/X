@@ -1,41 +1,41 @@
-# Agent Workspace Rules
+# Agent 工作区规则
 
-This repository is a coordination workspace for multiple independent business projects.
+本仓库是多个独立业务项目的协作工作区。
 
-## Project Map
+## 项目映射
 
-- `projects/webapp` is the Web frontend project.
-- `projects/mobile` is the mobile frontend project.
-- `projects/nky` is the backend project.
-- Each project under `projects/` is expected to keep its own `.git` directory and independent commit history.
+- `projects/webapp` 是 Web 端项目。
+- `projects/mobile` 是移动端项目。
+- `projects/nky` 是后端项目。
+- `projects/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
 
-## Working Rules
+## 工作规则
 
-- Treat `X` as the source of shared requirements, architecture decisions, interface contracts, and rollout plans.
-- Do not assume that child projects are part of this repository's git history.
-- For cross-project features, create `tasks/<feature-name>/` first.
-- Put shared product requirements in `tasks/<feature-name>/requirements.md`.
-- Put backend design in `tasks/<feature-name>/backend-plan.md`.
-- Put Web design in `tasks/<feature-name>/web-plan.md`.
-- Put mobile design in `tasks/<feature-name>/mobile-plan.md`.
-- Put shared interface contracts in `contracts/`.
-- Do not let Web and mobile projects invent backend contracts independently. Use `contracts/` as the shared interface source.
-- After implementation, record test results and release order in `tasks/<feature-name>/rollout.md`.
+- 将 `X` 作为共享需求、架构决策、接口契约和发布方案的来源。
+- 不要假设子项目属于本仓库的 git 历史。
+- 处理跨项目功能时，先创建 `tasks/<feature-name>/`。
+- 共享产品需求放在 `tasks/<feature-name>/requirements.md`。
+- 后端设计放在 `tasks/<feature-name>/backend-plan.md`。
+- Web 端设计放在 `tasks/<feature-name>/web-plan.md`。
+- 移动端设计放在 `tasks/<feature-name>/mobile-plan.md`。
+- 共享接口契约放在 `contracts/`。
+- 不要让 Web 端和移动端各自猜测后端契约，必须以 `contracts/` 为共享接口来源。
+- 实现完成后，在 `tasks/<feature-name>/rollout.md` 中记录测试结果和发布顺序。
 
-## Change Discipline
+## 变更纪律
 
-- Keep commits separate per child project unless the user explicitly asks otherwise.
-- Before editing a child project, inspect its own README, AGENTS.md, package files, and test commands.
-- Prefer small, reviewable changes per project.
-- Do not rewrite child project history unless explicitly requested.
+- 除非用户明确要求，否则每个子项目分别提交。
+- 编辑子项目之前，先查看该项目自己的 README、AGENTS.md、包配置文件和测试命令。
+- 每个项目的改动应尽量小，便于审查。
+- 除非用户明确要求，否则不要重写子项目历史。
 
-## Default Cross-Project Flow
+## 默认跨项目流程
 
-1. Read the feature requirement under `tasks/<feature-name>/`.
-2. Identify affected backend, Web, and mobile modules.
-3. Design or update shared contracts.
-4. Implement backend storage and interfaces.
-5. Implement Web data fetching and UI.
-6. Implement mobile data fetching and UI.
-7. Run focused verification in each changed project.
-8. Update rollout notes.
+1. 阅读 `tasks/<feature-name>/` 下的功能需求。
+2. 识别受影响的后端、Web 端、移动端模块。
+3. 设计或更新共享契约。
+4. 实现后端存储和接口。
+5. 实现 Web 端数据获取和界面。
+6. 实现移动端数据获取和界面。
+7. 在每个被修改的项目中运行针对性验证。
+8. 更新发布说明。

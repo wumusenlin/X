@@ -1,17 +1,16 @@
-# Web Plan
+# Web 端方案
 
-## Data
+## 数据
 
-- Query:
-- Mutation:
+- 查询：
+- 变更：
 
-## UI
+## 界面
 
-- Pages:
-- States:
-- Permissions:
+- 页面：
+- 状态：
+- 权限：
 
-## Verification
+## 验证
 
-- Tests:
-
+- 测试：

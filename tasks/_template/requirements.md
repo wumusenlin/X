@@ -1,21 +1,20 @@
-# Requirements
+# 需求
 
-## Goal
+## 目标
 
-Describe the user-facing goal.
+描述面向用户的目标。
 
-## Scope
+## 范围
 
-- In scope:
-- Out of scope:
+- 范围内：
+- 范围外：
 
-## Business Rules
+## 业务规则
 
-- Rule:
+- 规则：
 
-## Project Impact
+## 项目影响
 
-- Backend:
-- Web:
-- Mobile:
-
+- 后端：
+- Web 端：
+- 移动端：

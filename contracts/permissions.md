@@ -1,4 +1,3 @@
-# Permission Rules
+# 权限规则
 
-Record shared auth, role, and permission rules here.
-
+在这里记录共享的认证、角色和权限规则。

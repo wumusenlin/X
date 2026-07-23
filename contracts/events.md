@@ -1,4 +1,3 @@
-# Event Contracts
+# 事件契约
 
-Record async events, messages, queues, and webhook payloads here.
-
+在这里记录异步事件、消息、队列和 webhook 载荷。

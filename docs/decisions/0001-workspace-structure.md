@@ -1,16 +1,15 @@
-# 0001 Workspace Structure
+# 0001 工作区结构
 
-## Decision
+## 决策
 
-Use `X` as a coordination workspace for multiple independent git projects.
+使用 `X` 作为多个独立 git 项目的协作工作区。
 
-## Rationale
+## 原因
 
-This keeps shared requirements, contracts, and rollout planning in one place while preserving each business project's existing repository, CI, permissions, and release process.
+这样可以把共享需求、接口契约和发布计划集中管理，同时保留每个业务项目现有的仓库、CI、权限和发布流程。
 
-## Consequences
+## 影响
 
-- Cross-project tasks are coordinated from `X/tasks/`.
-- Source changes are committed inside each child project.
-- `projects/` is ignored by `X` git except for documentation placeholders.
-
+- 跨项目任务从 `X/tasks/` 协调。
+- 源码改动在各子项目内部提交。
+- 除文档占位文件外，`projects/` 会被 `X` 的 git 忽略。

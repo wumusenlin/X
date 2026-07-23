@@ -1,8 +1,7 @@
-# Cross-Project Rules
+# 跨项目规则
 
-- Shared requirements live in `tasks/`.
-- Shared interface contracts live in `contracts/`.
-- Child projects remain independent repositories.
-- Backend contract changes should be designed before frontend implementation.
-- Web and mobile differences should be documented explicitly in each feature task.
-
+- 共享需求放在 `tasks/`。
+- 共享接口契约放在 `contracts/`。
+- 子项目保持独立仓库。
+- 后端契约变更应先于前端实现完成设计。
+- Web 端和移动端的差异必须在每个功能任务中明确记录。

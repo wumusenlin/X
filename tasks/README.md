@@ -1,8 +1,8 @@
-# Tasks
+# 任务
 
-Create one folder per cross-project feature or change.
+每个跨项目功能或变更创建一个独立目录。
 
-Recommended structure:
+推荐结构：
 
 ```txt
 tasks/<feature-name>/
@@ -14,4 +14,3 @@ tasks/<feature-name>/
   test-plan.md
   rollout.md
 ```
-
