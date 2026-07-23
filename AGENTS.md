@@ -4,9 +4,9 @@ This repository is a coordination workspace for multiple independent business pr
 
 ## Project Map
 
-- `projects/A-web` is the Web frontend project.
-- `projects/B-mobile` is the mobile frontend project.
-- `projects/C-backend` is the backend project.
+- `projects/webapp` is the Web frontend project.
+- `projects/mobile` is the mobile frontend project.
+- `projects/nky` is the backend project.
 - Each project under `projects/` is expected to keep its own `.git` directory and independent commit history.
 
 ## Working Rules
@@ -39,4 +39,3 @@ This repository is a coordination workspace for multiple independent business pr
 6. Implement mobile data fetching and UI.
 7. Run focused verification in each changed project.
 8. Update rollout notes.
-

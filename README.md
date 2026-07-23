@@ -18,11 +18,9 @@ X/
 
 ## Project Roles
 
-- `projects/A-web`: Web frontend project.
-- `projects/B-mobile`: Mobile frontend project.
-- `projects/C-backend`: Backend project.
-
-Rename these examples after adding real projects.
+- `projects/webapp`: Web frontend project.
+- `projects/mobile`: Mobile frontend project.
+- `projects/nky`: Backend project.
 
 ## Workflow
 
@@ -33,4 +31,3 @@ Rename these examples after adding real projects.
 5. Run each project's tests.
 6. Commit each child project independently.
 7. Record rollout notes in `tasks/<feature-name>/rollout.md`.
-

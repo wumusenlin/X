@@ -2,14 +2,13 @@
 
 Place independent business project repositories here.
 
-Example:
+Expected layout:
 
 ```txt
 projects/
-  A-web/
-  B-mobile/
-  C-backend/
+  webapp/
+  mobile/
+  nky/
 ```
 
 Each child project should keep its own `.git` directory.
-
