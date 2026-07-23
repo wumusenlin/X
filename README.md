@@ -21,6 +21,7 @@ X/
 - `projects/webapp`：Web 端项目。
 - `projects/mobile`：移动端项目。
 - `projects/nky`：后端项目。
+- `projects/bureau`：独立项目，绩效管理平台（绩效通）。
 
 ## 工作流程
 

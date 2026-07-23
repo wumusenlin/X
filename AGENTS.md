@@ -7,6 +7,7 @@
 - `projects/webapp` 是 Web 端项目。
 - `projects/mobile` 是移动端项目。
 - `projects/nky` 是后端项目。
+- `projects/bureau` 是独立项目，绩效管理平台（绩效通）。
 - `projects/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
 
 ## 工作规则
