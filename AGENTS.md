@@ -6,6 +6,7 @@
 
 - `projects/webapp` 是 Web 端项目。
 - `projects/mobile` 是移动端项目。
+- `projects/xiaokong` 是前端口的智能对话项目，独立项目，通过iframe内嵌再webapp中。
 - `projects/nky` 是后端项目。
 - `projects/bureau` 是独立项目，绩效管理平台（绩效通）。
 - `projects/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
@@ -22,6 +23,7 @@
 - 共享接口契约放在 `contracts/`。
 - 不要让 Web 端和移动端各自猜测后端契约，必须以 `contracts/` 为共享接口来源。
 - 实现完成后，在 `tasks/<feature-name>/rollout.md` 中记录测试结果和发布顺序。
+- 禁止使用npm，必须使用pnpm
 
 ## 变更纪律
 
