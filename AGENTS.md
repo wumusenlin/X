@@ -22,6 +22,7 @@
 ## 工作规则
 
 - 将 `X` 作为共享需求、架构决策、接口契约和发布方案的来源。
+- 需要各项目近期修改上下文时，先读 [最近修改快照](docs/agent/recent-project-changes.md)；再按其中 SHA 回到对应独立仓库查看 diff。
 - 不要假设子项目属于本仓库的 git 历史。
 - 处理跨项目功能时，先创建 `tasks/<feature-name>/`。
 - 共享产品需求放在 `tasks/<feature-name>/requirements.md`。
@@ -37,7 +38,7 @@
 ## 变更纪律
 
 - 除非用户明确要求，否则每个子项目分别提交。
-- 编辑子项目之前，先查看该项目自己的 README、AGENTS.md、包配置文件和测试命令。
+- 修改任何子项目代码前，必须先阅读并遵守该子项目内的 `AGENTS.md`；例如修改 `projects/mobile` 时，先按 `projects/mobile/AGENTS.md` 执行。随后查看该项目的 README、包配置文件和测试命令。
 - 每个项目的改动应尽量小，便于审查。
 - 除非用户明确要求，否则不要重写子项目历史。
 
