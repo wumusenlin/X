@@ -11,6 +11,14 @@
 - `projects/bureau` 是独立项目，绩效管理平台（绩效通）。
 - `projects/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
 
+## 角色主责
+
+- 后端主责 `projects/nky/**`。
+- 前端主责 `projects/webapp/**` 和 `projects/mobile/**`。
+- 产品/小控主责 `projects/xiaokong/**`，并维护跨项目任务的需求与验收口径。
+- 绩效平台主责 `projects/bureau/**`。
+- 长期规则见 [docs/collaboration/roles.md](docs/collaboration/roles.md)。角色是默认主责，不是硬权限；跨域修改必须在任务 `ownership.md` 明确接管范围和验证责任。
+
 ## 工作规则
 
 - 将 `X` 作为共享需求、架构决策、接口契约和发布方案的来源。
@@ -22,6 +30,7 @@
 - 移动端设计放在 `tasks/<feature-name>/mobile-plan.md`。
 - 共享接口契约放在 `contracts/`。
 - 不要让 Web 端和移动端各自猜测后端契约，必须以 `contracts/` 为共享接口来源。
+- 跨项目任务必须创建 `tasks/<feature-name>/ownership.md`，写唯一主责、协作角色和跨域接管范围。
 - 实现完成后，在 `tasks/<feature-name>/rollout.md` 中记录测试结果和发布顺序。
 - 禁止使用npm，必须使用pnpm
 
