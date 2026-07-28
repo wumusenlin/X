@@ -6,11 +6,11 @@
 
 | 项目 | 来源路径 | 分支 | 快照时状态 |
 | --- | --- | --- | --- |
-| Web | `projects/webapp` | `NKY-master` | 干净 |
-| 移动端 | `projects/mobile` | `master` | 有未提交的 `AGENTS.md`、`docs/`、`playbook.md`、`spec.md`、`task_log.md` |
-| 后端 | `projects/nky` | `master` | 干净 |
-| 小控 | `projects/xiaokong` | `2026-07` | 有未提交的质量运营创建时间列与 `TASK_LOG.md` 修改 |
-| 绩效平台 | `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb` | `dev_2026-07-gch` | 干净；尚未映射到 `projects/bureau` |
+| Web | `repos/webapp` | `NKY-master` | 干净 |
+| 移动端 | `repos/mobile` | `master` | 有未提交的 `AGENTS.md`、`docs/`、`playbook.md`、`spec.md`、`task_log.md` |
+| 后端 | `repos/nky` | `master` | 干净 |
+| 小控 | `repos/xiaokong` | `2026-07` | 有未提交的质量运营创建时间列与 `TASK_LOG.md` 修改 |
+| 绩效平台 | `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb` | `dev_2026-07-gch` | 干净；尚未映射到 `repos/bureau` |
 
 ## Web
 

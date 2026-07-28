@@ -5,7 +5,7 @@
 预期目录结构：
 
 ```txt
-projects/
+repos/
   webapp/
   mobile/
   nky/

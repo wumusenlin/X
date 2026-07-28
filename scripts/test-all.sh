@@ -3,7 +3,7 @@ set -euo pipefail
 
 root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-for project in "$root"/projects/*; do
+for project in "$root"/repos/*; do
   [ -d "$project/.git" ] || continue
   name="$(basename "$project")"
   echo "== $name =="
@@ -19,4 +19,3 @@ for project in "$root"/projects/*; do
     echo "No known test command for $name; skipping"
   fi
 done
-

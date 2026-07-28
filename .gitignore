@@ -1,11 +1,11 @@
 .DS_Store
 
 # Child projects are independent git repositories.
-projects/*
-!projects/webapp
-!projects/mobile
-!projects/.gitkeep
-!projects/README.md
+repos/*
+!repos/webapp
+!repos/mobile
+!repos/.gitkeep
+!repos/README.md
 
 # Local agent/runtime noise.
 .codex/

@@ -4,19 +4,19 @@
 
 ## 项目映射
 
-- `projects/webapp` 是 Web 端项目。
-- `projects/mobile` 是移动端项目。
-- `projects/xiaokong` 是前端口的智能对话项目，独立项目，通过iframe内嵌再webapp中。
-- `projects/nky` 是后端项目。
-- `projects/bureau` 是独立项目，绩效管理平台（绩效通）。
-- `projects/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
+- `repos/webapp` 是 Web 端项目。
+- `repos/mobile` 是移动端项目。
+- `repos/xiaokong` 是前端口的智能对话项目，独立项目，通过iframe内嵌再webapp中。
+- `repos/nky` 是后端项目。
+- `repos/bureau` 是独立项目，绩效管理平台（绩效通）。
+- `repos/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
 
 ## 角色主责
 
-- 后端主责 `projects/nky/**`。
-- 前端主责 `projects/webapp/**` 和 `projects/mobile/**`。
-- 产品/小控主责 `projects/xiaokong/**`，并维护跨项目任务的需求与验收口径。
-- 绩效平台主责 `projects/bureau/**`。
+- 后端主责 `repos/nky/**`。
+- 前端主责 `repos/webapp/**` 和 `repos/mobile/**`。
+- 产品/小控主责 `repos/xiaokong/**`，并维护跨项目任务的需求与验收口径。
+- 绩效平台主责 `repos/bureau/**`。
 - 长期规则见 [docs/collaboration/roles.md](docs/collaboration/roles.md)。角色是默认主责，不是硬权限；跨域修改必须在任务 `ownership.md` 明确接管范围和验证责任。
 
 ## 工作规则
@@ -38,7 +38,8 @@
 ## 变更纪律
 
 - 除非用户明确要求，否则每个子项目分别提交。
-- 修改任何子项目代码前，必须先阅读并遵守该子项目内的 `AGENTS.md`；例如修改 `projects/mobile` 时，先按 `projects/mobile/AGENTS.md` 执行。随后查看该项目的 README、包配置文件和测试命令。
+- 收到“提交代码”或“推送代码”但未指定仓库时，必须先确认目标是 X 根仓库还是具体 `repos/*` 子项目；不得将独立子项目目录作为 X 根仓库内容暂存或提交。
+- 修改任何子项目代码前，必须先阅读并遵守该子项目内的 `AGENTS.md`；例如修改 `repos/mobile` 时，先按 `repos/mobile/AGENTS.md` 执行。随后查看该项目的 README、包配置文件和测试命令。
 - 每个项目的改动应尽量小，便于审查。
 - 除非用户明确要求，否则不要重写子项目历史。
 

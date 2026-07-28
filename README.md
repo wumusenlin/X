@@ -2,7 +2,7 @@
 
 X 是一个多项目 Agent 工作区。
 
-它用于统一管理多个独立业务项目的共享需求、架构说明、接口契约和任务方案。`projects/` 下的源码项目仍然保持各自独立的 git 历史。
+它用于统一管理多个独立业务项目的共享需求、架构说明、接口契约和任务方案。`repos/` 下的源码项目仍然保持各自独立的 git 历史。
 
 ## 目录结构
 
@@ -11,18 +11,18 @@ X/
   AGENTS.md
   contracts/
   docs/
-  projects/
+  repos/
   scripts/
   tasks/
 ```
 
 ## 项目角色
 
-- `projects/webapp`：Web 端项目。
-- `projects/mobile`：移动端项目。
-- `projects/nky`：后端项目。
-- `projects/xiaokong`：智能对话项目，通过 iframe 内嵌到 Web 端。
-- `projects/bureau`：独立项目，绩效管理平台（绩效通）。
+- `repos/webapp`：Web 端项目。
+- `repos/mobile`：移动端项目。
+- `repos/nky`：后端项目。
+- `repos/xiaokong`：智能对话项目，通过 iframe 内嵌到 Web 端。
+- `repos/bureau`：独立项目，绩效管理平台（绩效通）。
 
 目录主责、跨项目接管和小控嵌入边界见 [协作角色规则](docs/collaboration/roles.md)。
 
