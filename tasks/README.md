@@ -9,9 +9,7 @@ tasks/<feature-name>/
   requirements.md
   ownership.md
   domain-model.md
-  backend-plan.md
-  web-plan.md
-  mobile-plan.md
+  <project>-plan.md
   test-plan.md
   rollout.md
 ```

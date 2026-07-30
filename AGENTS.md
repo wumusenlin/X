@@ -8,7 +8,7 @@
 - `repos/mobile` 是移动端项目。
 - `repos/xiaokong` 是前端口的智能对话项目，独立项目，通过iframe内嵌再webapp中。
 - `repos/nky` 是后端项目。
-- `repos/bureau` 是独立项目，绩效管理平台（绩效通）。
+- 绩效平台当前位于工作区外的 `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb`；尚未映射到 `repos/bureau`。
 - `repos/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
 
 ## 角色主责
@@ -16,7 +16,7 @@
 - 后端主责 `repos/nky/**`。
 - 前端主责 `repos/webapp/**` 和 `repos/mobile/**`。
 - 产品/小控主责 `repos/xiaokong/**`，并维护跨项目任务的需求与验收口径。
-- 绩效平台主责 `repos/bureau/**`。
+- 绩效平台主责外部 `bureauweb` 仓库；纳入 `repos/bureau` 前不得假设该目录存在。
 - 长期规则见 [docs/collaboration/roles.md](docs/collaboration/roles.md)。角色是默认主责，不是硬权限；跨域修改必须在任务 `ownership.md` 明确接管范围和验证责任。
 
 ## 工作规则
@@ -26,9 +26,7 @@
 - 不要假设子项目属于本仓库的 git 历史。
 - 处理跨项目功能时，先创建 `tasks/<feature-name>/`。
 - 共享产品需求放在 `tasks/<feature-name>/requirements.md`。
-- 后端设计放在 `tasks/<feature-name>/backend-plan.md`。
-- Web 端设计放在 `tasks/<feature-name>/web-plan.md`。
-- 移动端设计放在 `tasks/<feature-name>/mobile-plan.md`。
+- 按受影响项目在 `tasks/<feature-name>/` 下创建对应的 `<project>-plan.md`；未受影响项目不建计划文件。
 - 共享接口契约放在 `contracts/`。
 - 不要让 Web 端和移动端各自猜测后端契约，必须以 `contracts/` 为共享接口来源。
 - 跨项目任务必须创建 `tasks/<feature-name>/ownership.md`，写唯一主责、协作角色和跨域接管范围。
@@ -46,10 +44,8 @@
 ## 默认跨项目流程
 
 1. 阅读 `tasks/<feature-name>/` 下的功能需求。
-2. 识别受影响的后端、Web 端、移动端模块。
+2. 识别受影响项目及模块（后端、Web、移动端、小控、绩效平台）。
 3. 设计或更新共享契约。
-4. 实现后端存储和接口。
-5. 实现 Web 端数据获取和界面。
-6. 实现移动端数据获取和界面。
-7. 在每个被修改的项目中运行针对性验证。
-8. 更新发布说明。
+4. 按受影响项目实现存储、接口或界面。
+5. 在每个被修改的项目中运行针对性验证。
+6. 更新发布说明。

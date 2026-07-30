@@ -2,9 +2,6 @@
 
 # Child projects are independent git repositories.
 repos/*
-!repos/webapp
-!repos/mobile
-!repos/xiaokong
 !repos/.gitkeep
 !repos/README.md
 

@@ -14,7 +14,7 @@
 | 后端 | `repos/nky/**` | 实体、接口、存储逻辑、后端验证 | Web、Mobile、小控业务代码 |
 | 前端 | `repos/webapp/**`、`repos/mobile/**` | Web/Mobile 页面、请求接入、前端验证 | 后端实体、迁移和服务实现 |
 | 产品/小控 | `repos/xiaokong/**`、`tasks/*/requirements.md` | 智能交互、提示词、需求和验收口径 | Web/Mobile 业务实现、后端实现 |
-| 绩效平台 | `repos/bureau/**` | bureau 需求、代码和验证 | 其他项目业务代码 |
+| 绩效平台 | 外部 `bureauweb` 仓库（尚未映射 `repos/bureau`） | bureau 需求、代码和验证 | 其他项目业务代码 |
 | 工作区维护 | `AGENTS.md`、`docs/**`、`contracts/**`、`tasks/**` | 协作规则、共享契约、任务和发布记录 | 任意子项目业务代码 |
 
 ## 主次规则

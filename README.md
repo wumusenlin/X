@@ -22,7 +22,7 @@ X/
 - `repos/mobile`：移动端项目。
 - `repos/nky`：后端项目。
 - `repos/xiaokong`：智能对话项目，通过 iframe 内嵌到 Web 端。
-- `repos/bureau`：独立项目，绩效管理平台（绩效通）。
+- 绩效平台当前位于工作区外的 `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb`；尚未映射到 `repos/bureau`。
 
 目录主责、跨项目接管和小控嵌入边界见 [协作角色规则](docs/collaboration/roles.md)。
 
@@ -32,7 +32,7 @@ X/
 2. 在跨项目任务的 `ownership.md` 中指定唯一主责、协作角色和跨域接管范围。
 3. 在 `requirements.md` 中编写共享需求。
 4. 在 `contracts/` 中更新共享契约。
-5. 分别在后端、Web 端、移动端项目中实现改动。
-6. 分别运行各项目的测试。
+5. 在受影响的子项目中实现改动。
+6. 按各子项目的真实命令运行针对性验证。
 7. 分别在各子项目中独立提交代码。
 8. 在 `tasks/<feature-name>/rollout.md` 中记录发布说明。
