@@ -1,6 +1,6 @@
 # Sprint 归档
 
-一个 Sprint 聚合一次交付涉及的多个子项目提交。当前需求材料留在 `tasks/<feature>/`；收口后将范围、验证和提交证据固化到 `sprints/<sprint>/`。
+一个 Sprint 聚合一次交付涉及的多个子项目提交。当前需求材料留在 `tasks/<feature>/`；收口后将范围、验证和提交证据固化到 `docs/sprints/<sprint>/`。
 
 子项目完成提交或推送后，在 X 根目录执行：
 

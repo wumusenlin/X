@@ -11,7 +11,6 @@ X/
   AGENTS.md
   contracts/
   docs/
-  sprints/
   repos/
   scripts/
   tasks/

@@ -30,7 +30,7 @@ fi
 commit="$(git -C "$repo" rev-parse --verify "${revision}^{commit}")"
 short_commit="$(git -C "$repo" rev-parse --short "$commit")"
 commit_date="$(git -C "$repo" show -s --format=%cs "$commit")"
-sprint_dir="$root/sprints/$sprint"
+sprint_dir="$root/docs/sprints/$sprint"
 relative_commit="commits/$project-$commit_date-$short_commit.md"
 archive="$sprint_dir/$relative_commit"
 
