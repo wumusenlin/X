@@ -11,6 +11,7 @@ X/
   AGENTS.md
   contracts/
   docs/
+  sprints/
   repos/
   scripts/
   tasks/
@@ -34,5 +35,6 @@ X/
 4. 在 `contracts/` 中更新共享契约。
 5. 在受影响的子项目中实现改动。
 6. 按各子项目的真实命令运行针对性验证。
-7. 分别在各子项目中独立提交代码。
-8. 在 `tasks/<feature-name>/rollout.md` 中记录发布说明。
+7. 分别在各子项目中独立提交代码，并执行 `./scripts/archive-sprint-commit.sh <sprint> <project> HEAD`。
+8. 将新增 Sprint 归档作为 X 根仓库的独立提交处理。
+9. 在 `tasks/<feature-name>/rollout.md` 中记录发布说明。
