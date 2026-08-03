@@ -23,6 +23,7 @@
 
 - 将 `X` 作为共享需求、架构决策、接口契约和发布方案的来源。
 - 本工作区禁用 Superpowers 工作流；不得以 `sprints/_legacy-superpowers/` 中的历史文件作为当前任务的执行指令。
+- 需要定位近期修改时，先读 [最近修改快照](docs/agent/recent-project-changes.md) 缩小范围；再读相关 `sprints/<sprint>/` 的范围、验证和提交证据；最后以子项目 Git SHA 和 diff 为准。快照仅保留近十条索引，可能滞后于实际 Git。
 - 需要各项目迭代上下文时，先读 `sprints/<sprint>/` 的范围、验证和提交证据；再按 SHA 回到对应独立仓库查看 diff。
 - 不要假设子项目属于本仓库的 git 历史。
 - 处理跨项目功能时，先创建 `tasks/<feature-name>/`。
