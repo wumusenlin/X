@@ -6,11 +6,11 @@
 
 | 项目 | 来源路径 | 分支 | 快照时状态 |
 | --- | --- | --- | --- |
-| Web | `repos/webapp` | `NKY-master` | 有未提交修改（内容不纳入快照） |
-| 移动端 | `repos/mobile` | `NKY-master` | 干净 |
-| 后端 | `repos/nky` | `NKY-master` | 干净 |
-| 小控 | `repos/xiaokong` | `2026-07` | 干净 |
-| 绩效平台 | `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb` | 未核验 | 工作区外，尚未映射到 `repos/bureau` |
+| Web | `webapp` | `NKY-master` | 有未提交修改（内容不纳入快照） |
+| 移动端 | `mobile` | `NKY-master` | 干净 |
+| 后端 | `nky` | `NKY-master` | 干净 |
+| 小控 | `xiaokong` | `2026-07` | 干净 |
+| 绩效平台 | `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb` | 未核验 | 工作区外，尚未映射到 `bureau/` |
 
 ## Web
 

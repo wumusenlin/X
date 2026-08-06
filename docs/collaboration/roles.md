@@ -11,10 +11,10 @@
 
 | 角色 | 主责目录 | 主要产出 | 默认不直接修改 |
 |---|---|---|---|
-| 后端 | `repos/nky/**` | 实体、接口、存储逻辑、后端验证 | Web、Mobile、小控业务代码 |
-| 前端 | `repos/webapp/**`、`repos/mobile/**` | Web/Mobile 页面、请求接入、前端验证 | 后端实体、迁移和服务实现 |
-| 产品/小控 | `repos/xiaokong/**`、`tasks/*/requirements.md` | 智能交互、提示词、需求和验收口径 | Web/Mobile 业务实现、后端实现 |
-| 绩效平台 | 外部 `bureauweb` 仓库（尚未映射 `repos/bureau`） | bureau 需求、代码和验证 | 其他项目业务代码 |
+| 后端 | `nky/**` | 实体、接口、存储逻辑、后端验证 | Web、Mobile、小控业务代码 |
+| 前端 | `webapp/**`、`mobile/**` | Web/Mobile 页面、请求接入、前端验证 | 后端实体、迁移和服务实现 |
+| 产品/小控 | `xiaokong/**`、`tasks/*/requirements.md` | 智能交互、提示词、需求和验收口径 | Web/Mobile 业务实现、后端实现 |
+| 绩效平台 | 外部 `bureauweb` 仓库（尚未映射 `bureau/`） | bureau 需求、代码和验证 | 其他项目业务代码 |
 | 工作区维护 | `AGENTS.md`、`docs/**`、`contracts/**`、`tasks/**` | 协作规则、共享契约、任务和发布记录 | 任意子项目业务代码 |
 
 ## 主次规则
@@ -23,7 +23,7 @@
 2. 跨项目任务：先创建 `tasks/<feature>/ownership.md`，只有一个任务主责。
 3. 协作角色可改自己的主责目录；改主责之外的代码前，必须在 `ownership.md` 写明接管人、目录和验证责任。
 4. 共享接口字段以 `contracts/` 为准：后端确认可实现性和最终字段；前端确认消费方式；产品确认业务语义和验收。
-5. 小控嵌入 Web 时，产品/小控主责 `repos/xiaokong/**`，前端主责 `repos/webapp/**` 的 iframe、路由和宿主通信；两者在同一任务中分别列出范围。
+5. 小控嵌入 Web 时，产品/小控主责 `xiaokong/**`，前端主责 `webapp/**` 的 iframe、路由和宿主通信；两者在同一任务中分别列出范围。
 
 ## 使用方式
 

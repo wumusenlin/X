@@ -1,14 +1,19 @@
 .DS_Store
 
-# Child projects are independent git repositories.
-repos/*
-!repos/.gitkeep
-!repos/README.md
+# Child projects are independent git repositories at the workspace root.
+/framework/
+/mobile/
+/nky/
+/out/
+/webapp/
+/xiaokong/
 
 # Local agent/runtime noise.
 .codex/
 .agents/
 .cache/
+/.local-tools/
+/.m2/
 tmp/
 *.log
 .pnpm-store

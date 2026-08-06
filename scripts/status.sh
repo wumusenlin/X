@@ -8,7 +8,7 @@ git -C "$root" status --short
 
 echo
 echo "Child projects:"
-for project in "$root"/repos/*; do
+for project in "$root"/*; do
   [ -d "$project/.git" ] || continue
   name="$(basename "$project")"
   branch="$(git -C "$project" branch --show-current 2>/dev/null || true)"

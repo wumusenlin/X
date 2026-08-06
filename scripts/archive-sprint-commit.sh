@@ -21,7 +21,7 @@ if [[ ! "$project" =~ ^[A-Za-z0-9][A-Za-z0-9_-]*$ ]]; then
   exit 64
 fi
 
-repo="$root/repos/$project"
+repo="$root/$project"
 if [[ ! -d "$repo/.git" ]]; then
   echo "unknown child project: $project" >&2
   exit 66

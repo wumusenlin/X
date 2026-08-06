@@ -7,6 +7,6 @@
 ## 验证结果
 
 - 角色规则、任务模板和任务说明文件已创建。
-- `AGENTS.md`、`README.md`、`repos/README.md`、`tasks/README.md` 已接入 `ownership.md` 规则。
+- `AGENTS.md`、`README.md`、`tasks/README.md` 已接入 `ownership.md` 规则。
 - 已验证后端、前端、产品/小控和绩效平台的主责目录，以及小控与 Web 宿主边界。
 - 未运行子项目构建或测试：本次未修改任何子项目代码、依赖或构建配置。

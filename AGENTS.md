@@ -4,19 +4,19 @@
 
 ## 项目映射
 
-- `repos/webapp` 是 Web 端项目。
-- `repos/mobile` 是移动端项目。
-- `repos/xiaokong` 是前端口的智能对话项目，独立项目，通过iframe内嵌再webapp中。
-- `repos/nky` 是后端项目。
-- 绩效平台当前位于工作区外的 `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb`；尚未映射到 `repos/bureau`。
-- `repos/` 下的每个项目都应保留自己的 `.git` 目录和独立提交历史。
+- `webapp` 是 Web 端项目。
+- `mobile` 是移动端项目。
+- `xiaokong` 是前端口的智能对话项目，独立项目，通过iframe内嵌再webapp中。
+- `nky` 是后端项目。
+- 绩效平台当前位于工作区外的 `/Users/zhangsenlin/nky/code/2025-02-11/bureauweb`；尚未映射到 `bureau/`。
+- 根目录下的每个子项目都应保留自己的 `.git` 目录和独立提交历史。
 
 ## 角色主责
 
-- 后端主责 `repos/nky/**`。
-- 前端主责 `repos/webapp/**` 和 `repos/mobile/**`。
-- 产品/小控主责 `repos/xiaokong/**`，并维护跨项目任务的需求与验收口径。
-- 绩效平台主责外部 `bureauweb` 仓库；纳入 `repos/bureau` 前不得假设该目录存在。
+- 后端主责 `nky/**`。
+- 前端主责 `webapp/**` 和 `mobile/**`。
+- 产品/小控主责 `xiaokong/**`，并维护跨项目任务的需求与验收口径。
+- 绩效平台主责外部 `bureauweb` 仓库；纳入 `bureau/` 前不得假设该目录存在。
 - 长期规则见 [docs/collaboration/roles.md](docs/collaboration/roles.md)。角色是默认主责，不是硬权限；跨域修改必须在任务 `ownership.md` 明确接管范围和验证责任。
 
 ## 工作规则
@@ -38,9 +38,9 @@
 ## 变更纪律
 
 - 除非用户明确要求，否则每个子项目分别提交。
-- 收到“提交代码”或“推送代码”但未指定仓库时，必须先确认目标是 X 根仓库还是具体 `repos/*` 子项目；不得将独立子项目目录作为 X 根仓库内容暂存或提交。
-- 代理完成任一 `repos/*` 子项目的 `git commit` 或 `git push` 后，必须先取得本次 Sprint 标识，再在结束回复前执行 `./scripts/archive-sprint-commit.sh <sprint> <project> HEAD`，将该提交归档至 `docs/sprints/<sprint>/commits/`。归档有变化时，X 根仓库的归档改动必须独立提交；是否推送 X 根仓库仍须用户单独授权。
-- 修改任何子项目代码前，必须先阅读并遵守该子项目内的 `AGENTS.md`；例如修改 `repos/mobile` 时，先按 `repos/mobile/AGENTS.md` 执行。随后查看该项目的 README、包配置文件和测试命令。
+- 收到“提交代码”或“推送代码”但未指定仓库时，必须先确认目标是 X 根仓库还是具体子项目；不得将独立子项目目录作为 X 根仓库内容暂存或提交。
+- 代理完成任一子项目的 `git commit` 或 `git push` 后，必须先取得本次 Sprint 标识，再在结束回复前执行 `./scripts/archive-sprint-commit.sh <sprint> <project> HEAD`，将该提交归档至 `docs/sprints/<sprint>/commits/`。归档有变化时，X 根仓库的归档改动必须独立提交；是否推送 X 根仓库仍须用户单独授权。
+- 修改任何子项目代码前，必须先阅读并遵守该子项目内的 `AGENTS.md`；例如修改 `mobile` 时，先按 `mobile/AGENTS.md` 执行。随后查看该项目的 README、包配置文件和测试命令。
 - 每个项目的改动应尽量小，便于审查。
 - 除非用户明确要求，否则不要重写子项目历史。
 

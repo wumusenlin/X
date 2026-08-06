@@ -1,11 +1,11 @@
 {
   "git.autoRepositoryDetection": "subFolders",
   "git.scanRepositories": [
-    "repos/framework",
-    "repos/mobile",
-    "repos/nky",
-    "repos/webapp",
-    "repos/xiaokong"
+    "framework",
+    "mobile",
+    "nky",
+    "webapp",
+    "xiaokong"
   ],
   "scm.alwaysShowRepositories": true
 }
