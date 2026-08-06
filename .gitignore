@@ -17,3 +17,8 @@
 tmp/
 *.log
 .pnpm-store
+harness
+product-docs
+agent-work
+agent-sop
+agent-workspace
